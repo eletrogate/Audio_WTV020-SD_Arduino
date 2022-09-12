@@ -13,7 +13,7 @@
 //Buffer de armazenamento
 char bufferRead;
 
-//Inicializa biblioteca com os pinos utilizados na montagem
+//Inicializa objeto com os pinos utilizados na montagem
 Wtv020sd16p wtv020sd16p(RST_PIN,CLK_Pin,DIN_PIN,BUSY_PIN);
  
 void setup()
